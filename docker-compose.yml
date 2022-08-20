@@ -1,0 +1,9 @@
+version: "3.7"
+
+services:
+  pool-of-ideas-api:
+    build: "."
+    container_name: pool-of-ideas-api
+    restart: always
+    ports:
+      - "8050:80"
