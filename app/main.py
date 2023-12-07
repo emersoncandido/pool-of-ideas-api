@@ -1,3 +1,5 @@
+"""Main Pool of Ideas API endpoints"""
+
 from fastapi import FastAPI
 
 app = FastAPI()
